@@ -22,7 +22,7 @@ vim.opt.cursorline = false
 vim.opt.scrolloff = 10
 vim.opt.list = false
 vim.opt.listchars = { trail = "·", tab = "» ", nbsp = "␣" }
-vim.opt.guicursor = ""
+-- vim.opt.guicursor = ""
 vim.bo.tabstop = 4
 vim.bo.softtabstop = 4
 vim.bo.shiftwidth = 4
