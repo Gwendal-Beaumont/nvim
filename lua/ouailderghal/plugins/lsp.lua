@@ -63,42 +63,19 @@ return {
 
 		-- LSP servers
 		local servers = {
-			gopls = {
-        autostart = false,
-      },
-			pyright = {
-        autostart = false,
-      },
-			clangd = {
-        autostart = false,
-      },
-			tsserver = {
-        autostart = false,
-      },
-			html = { 
-        autostart = false,
-        filetypes = { "html" } 
-      },
-			ansiblels = {
-        autostart = false,
-      },
-			yamlls = {
-        autostart = false,
-      },
-			jsonls = {
-        autostart = false,
-      },
-			texlab = {
-        autostart = false,
-      },
-			bashls = {
-        autostart = false,
-      },
-			intelephense = {
-        autostart = false,
-      },
+			gopls = {},
+			pyright = {},
+			clangd = {},
+			tsserver = {},
+			html = { filetypes = { "html" } },
+			ansiblels = {},
+			yamlls = {},
+			jsonls = {},
+			texlab = {},
+			bashls = {},
+			-- intelephense = {},
+
 			lua_ls = {
-        autostart = false,
 				settings = {
 					Lua = {
 						completion = {
@@ -131,3 +108,5 @@ return {
 		})
 	end,
 }
+
+-- vim: ts=2 sts=2 sw=2 et
