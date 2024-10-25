@@ -94,9 +94,9 @@ return {
 			bashls = {
         autostart = false,
       },
-			intelephense = {
-        autostart = false,
-      },
+			-- intelephense = {
+   --      autostart = false,
+   --    },
 			lua_ls = {
         autostart = false,
 				settings = {
