@@ -1,4 +1,4 @@
-require("ouailderghal")
+require("gwendalbeaumont")
 
 -- Set colorscheme
 -- vim.cmd.colorscheme("catppuccin")
@@ -19,5 +19,5 @@ require("lazy").setup({
 	{ "numToStr/Comment.nvim", opts = {} }, -- "gc" to comment visual regions/lines
 	"apple/pkl-neovim",
 
-	{ import = "ouailderghal.plugins" },
+	{ import = "gwendalbeaumont.plugins" },
 }, { ui = {} })
