@@ -1,3 +1,4 @@
+require("custom.global")
 require("custom.lazy")
 require("custom.options")
 require("custom.bindings")
