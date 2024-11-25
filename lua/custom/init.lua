@@ -1,5 +1,6 @@
-require("custom.global")
+require("custom.globals")
 require("custom.lazy")
 require("custom.options")
 require("custom.bindings")
+require("custom.groups")
 require("custom.autocmd")

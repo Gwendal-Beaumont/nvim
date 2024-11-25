@@ -16,7 +16,13 @@ vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 vim.opt.inccommand = "split"
 vim.opt.cursorline = true
 vim.opt.scrolloff = 10
-vim.opt.colorcolumn = "80"
+
+-- Line wrap & break
+vim.opt.colorcolumn = "120"
+vim.opt.textwidth = 120
+vim.opt.wrap = true
+vim.opt.linebreak = true
+vim.opt.formatoptions:append("t")
 
 vim.schedule(function()
 	vim.opt.clipboard = "unnamedplus"
