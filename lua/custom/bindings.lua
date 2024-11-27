@@ -26,6 +26,6 @@ vim.keymap.set("n", "<C-j>", "<C-w><C-j>", { desc = "Move focus to the lower win
 vim.keymap.set("n", "<C-k>", "<C-w><C-k>", { desc = "Move focus to the upper window" })
 
 -- Start and stop spell checking
-vim.keymap.set("n", "<leader>le", ":set spell spelllang=en_us<cr>")
+vim.keymap.set("n", "<leader>le", ":set spell spelllang=en_gb<cr>")
 vim.keymap.set("n", "<leader>lf", ":set spell spelllang=fr<cr>")
 vim.keymap.set("n", "<leader>ll", ":set nospell<cr>")
