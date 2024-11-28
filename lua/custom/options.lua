@@ -18,8 +18,8 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 
 -- Line wrap & break
-vim.opt.colorcolumn = "120"
-vim.opt.textwidth = 120
+vim.opt.colorcolumn = "80"
+vim.opt.textwidth = 80
 vim.opt.wrap = true
 vim.opt.linebreak = true
 vim.opt.formatoptions:append("t")
