@@ -1,9 +1,9 @@
 return {
-  'navarasu/onedark.nvim',
-  lazy = false,
-  priority = 1000,
-  cond = true,
-  config = function()
-    vim.cmd [[ colorscheme onedark ]]
-  end,
+	"rebelot/kanagawa.nvim",
+	lazy = false,
+	priority = 1000,
+	cond = true,
+	config = function()
+		vim.cmd([[ colorscheme kanagawa ]])
+	end,
 }
