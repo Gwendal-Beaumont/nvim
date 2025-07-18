@@ -188,12 +188,10 @@ return {
 				-- ts_ls = {},
 				--
 				lua_ls = { autostart = false },
-				gopls = { autostart = false },
 				pyright = { autostart = false },
 				yamlls = { autostart = false },
 				clangd = { autostart = false },
 				ts_ls = { autostart = false },
-				html = { autostart = false, filetypes = { "html" } },
 				ansiblels = { autostart = false },
 				jsonls = { autostart = false },
 				texlab = { autostart = false },
